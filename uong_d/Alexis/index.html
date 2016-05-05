@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <link rel="stylesheet" href="//code.jquery.com/ui/1.11.2/themes/smoothness/jquery-ui.css">
+  
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="">
+  <meta navme="author" content="">
+  
+  <link rel="shortcut icon" href="img/favicon.ico">
+  <title>ETNA's movies - Start a good life</title>
+  <!-- Bootstrap Core CSS -->
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+  
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="style2.css">
+  <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+  <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+  <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+      <![endif]-->
+</head>
+
+<body>
+  <script type="text/javascript" src="http://code.jquery.com/jquery-1.11.2.min.js"></script>
+  <script src="http://code.jquery.com/ui/1.11.2/jquery-ui.min.js"></script>
+  <script type="text/javascript" src="index.js"></script>
+  <script type="text/javascript" src="trailer.js"></script>
+  <script type="text/javascript" src="new_page.js"></script>
+  
+  <!-- Navigation -->
+  <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+    <div class="container">
+      <!-- Brand and toggle get grouped for better mobile display -->
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+	<a class="navbar-brand" href="index.html"><img src="img/movie_logo.png"/></a>
+	<div class="ui-widget">
+	  <form action="index.html" method="get">
+            <input type="text" name="search" id="recherche" placeholder="Rechercher" style="color: rgb(204, 204, 204);" class="ui-autocomplete-input" autocomplete="off">
+	    <ul class="ui-autocomplete ui-front ui-menu ui-widget ui-widget-content" id="ui-id-1" tabindex="0" style="display: none;"></ul>
+	      <div id="result">
+	  </div> 
+	  </form>
+	</div>
+	<div id="boutton_recherche">
+	  <button type="submit">Go</button>
+	</div>
+      </div>
+      <!-- Collect the nav links, forms, and other content for toggling -->
+      <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+        <ul class="nav navbar-nav">
+          <li>
+            <div id="action"><p id="action2" onclick="myFunction()"><a href="#">Action</a></p></div>
+          </li>
+          <li>
+            <div id="animation"><p id="animation2" onclick="myFunction()"><a href="#">Animation</a></p></div>
+          </li>
+          <li>
+            <div id="aventures"><p id="aventures2" onclick="myFunction()"><a href="#">Aventures</a></p></div>
+          </li>
+          <li>
+            <div id="comedie"><p id="comedie2" onclick="myFunction()"><a href="#">Comedie</a></p></div>
+          </li>
+          <li>
+            <div id="concert"><p id="concert2" onclick="myFunction()"><a href="#">Concert</a></p></div>
+          </li>
+          <li>
+            <div id="horreur"><p id="horreur2" onclick="myFunction()"><a href="#">Horreur</a></p></div>
+          </li>
+          <li>
+            <div id="policier"><p id="policier2" onclick="myFunction()"><a href="#">Policier</a></p></div>
+          </li>
+          <li>
+            <div id="romance"><p id="romance2" onclick="myFunction()"><a href="#">Romance</a></p></div>
+          </li>
+          <li>
+            <div id="sci_fiction"><p id="sci_fiction2" onclick="myFunction()"><a href="#">Science Fiction</a></p></div>
+          </li>
+	  
+        </ul>
+	
+          
+      </div>
+      <!-- /.navbar-collapse -->
+    </div>
+    <!-- /.container -->
+  </nav>
+  
+  <!-- Page Content -->
+  <div class="container">
+    
+    <!-- Team Members Row -->
+    <div class="row">
+      <div id="delete">
+        <div class="col-lg-12">
+          <h2 class="page-header"><br>Les trailers</h2>
+        </div>
+        <div id="merde">
+	 <iframe width="560" height="315" src="https://www.youtube.com/embed/Ind7YuWgXLk" frameborder="0" allowfullscreen></iframe>
+  	<iframe width="560" height="315" src="https://www.youtube.com/embed/SF0wEA0Bo4w" frameborder="0" allowfullscreen></iframe>
+        </div>
+          <div class="col-lg-12">
+            <h2 class="page-header"><br>Nos Affiches</h2>
+          </div>
+          <div class="col-lg-4 col-sm-6 text-center">
+            <img class="img-circle img-responsive img-center" alt="">
+              <h3>
+                <small></small>
+              </h3>
+            <p></p>
+          </div>
+        <div class="col-lg-4 col-sm-6 text-center">
+            <img class="img-circle img-responsive img-center"  alt="">
+              <h3>
+                <small></small>
+              </h3>
+              <p></p>
+        </div>
+        <div class="col-lg-4 col-sm-6 text-center">
+          <img class="img-circle img-responsive img-center"  alt="">
+            <h3>
+              <small></small>
+            </h3>
+            <p></p>
+        </div>
+      <div class="col-lg-4 col-sm-6 text-center">
+        <img class="img-circle img-responsive img-center" alt="">
+        <h3>
+          <small></small>
+        </h3>
+        <p></p>
+      </div>
+      <div class="col-lg-4 col-sm-6 text-center">
+        <img class="img-circle img-responsive img-center" alt="">
+        <h3>
+          <small></small>
+        </h3>
+        <p></p>
+      </div>
+      <div class="col-lg-4 col-sm-6 text-center">
+        <img class="img-circle img-responsive img-center" alt="">
+        <h3>
+          <small></small>
+        </h3>
+        <p></p>
+      </div>
+    </div>
+  </div>
+    
+    <hr>
+    
+    <!-- Footer -->
+    <footer>
+      <div class="row">
+        <div class="col-lg-12">
+          <h1 class="page-header"><br>A Propos
+            <small>Notre équipe !</small>
+          </h1>
+          <div id="login">
+            <img src="img/meridj_l.jpg"/> <img src="img/rezzou_z.jpg"/> <img src="img/sahli_k.jpg"/> <img src="img/uong_d.jpg"/>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-lg-12">
+          <br><br><p>Copyright &copy; ETNA's HADOPI 2015</p>
+        </div>
+        <!-- /.col-lg-12 -->
+      </div>
+      <!-- /.row -->
+    </footer>
+    
+  </div>
+  <!-- /.container -->
+  
+  <!-- jQuery -->
+
+  
+  <!-- Bootstrap Core JavaScript -->
+  <script src="js/bootstrap.min.js"></script>
+  
+</body>
+
+</html>
